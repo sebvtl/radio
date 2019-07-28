@@ -1,0 +1,290 @@
+/* Document
+    -   Document Radio
+    -   version : 1.0.0
+    - Author : Sebastien
+*/
+
+
+/* COLOR
+    - Defaut body text #eee
+    - h1    #eee
+    - h2    #333333
+
+    - btn  cornnflowerblue
+    - btn:hover
+
+*/
+
+/* FONTS
+    - Defaut        Lato
+
+*/
+
+/* Index CSS
+    - 1. Global
+    - 2. Header
+
+
+*/
+
+
+/* GLOBAL
+======================================================================== */
+html {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'lato''arial'sans-serif;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #a74e34;
+    width: 100px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+/* HEADER
+======================================================================== */
+
+.mike img {
+    position: absolute;
+    background-attachment: fixed;
+    top: 450px;
+    right: 0;
+    height: 70vh;
+    max-height: 60vh;
+    max-width: 100vw
+}
+
+.mike {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.home-title {
+    position: absolute;
+    top: 30%;
+}
+
+.home-title h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 540%;
+    color: #fff;
+}
+
+.btn-full {
+    background-color: cornflowerblue;
+    margin-right: 15px;
+    z-index: 1;
+}
+
+.btn-gohst {
+    border: 2px solid cornflowerblue;
+    z-index: 1;
+}
+
+.btn-gohst:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.home-title p {
+    font-family: 'sanchez';
+    font-weight: 400;
+    color: #fff;
+}
+
+.control-header {
+    position: absolute;
+    top: 45%;
+}
+
+/* HERO
+======================================================================== */
+
+.programme-detail {
+    display: block;
+    border: 2px solid #eee;
+    margin: 10px;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.programme-img {
+    margin: 0 49px
+}
+
+.programme-detail p {
+    font-family: 'sanchez';
+    font-style: italic;
+    font-weight: 900;
+
+    text-align: center;
+}
+
+.program h2::after {
+    display: none;
+}
+
+/* INTERET
+======================================================================== */
+.interet {
+
+    background-image: url(../Images/light-spots.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.interet-radio h2 {
+    color: #fff;
+}
+
+.la-matinal {
+    display: block;
+    border: 3px solid #eee;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding-left: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.la-matinal img {
+    margin: 0 0 100px 0;
+    border-radius: 50%;
+
+}
+
+
+.apres-midi {
+    display: block;
+    border: 3px solid #eee;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding-right: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+
+}
+
+.apres-midi img {
+    margin: 0 0 100px 0;
+    border-radius: 50%;
+
+}
+
+.interet-radio h2::after {
+    display: none
+}
+
+/* Photo
+======================================================================== */
+.photo-style h2 {
+    color: #fff;
+
+}
+
+.photo-style h2::after {
+    background-color: #fff
+}
+
+.slide-img {
+    background-color: #771010;
+    background-attachment: fixed;
+    width: 100%;
+    max-height: 100%;
+
+}
+
+.windows {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 55px rgba(255, 255, 255, 0.8);
+
+
+}
+
+/* CONTACT
+======================================================================== */
+
+.btn-contact {
+    background-color: #771010;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.btn-contact:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+/* FOOTER
+======================================================================== */
+footer {
+    background-color: #777777;
+    margin-top: 15px;
+    height: 100px
+}
+
+footer h3 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'sanchez'sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff
+}
+
+
+footer a {
+    color: blue;
+}
