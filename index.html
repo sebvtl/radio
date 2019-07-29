@@ -5,7 +5,7 @@
 <head>
 
 
-    <title> Radio </title>
+    <title> Beat Radio </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,6 +26,11 @@
 
     <meta name="description" content="Télécharger vos musiques">
     <meta name="keywords" content="musique, music, hit, titre, ">
+    
+    <!-- icon
+=======================================================================================================-->
+    
+    <link rel="icon" href="Images/4x/icon-br@4x.png">
 
 
 </head>
@@ -35,6 +40,32 @@
     <!-- HEADER
 ==================================================================================================-->
     <header>
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span id=title-radio>Beat Radio</span></a>
+                    <button class="navbar-toggler"
+                        type="button"
+                            data-toggle="collapse"
+                            data-target="#monMenu"
+                        aria-controls="monMenu"
+                        aria-label="Menu pour mobil"> 
+                        
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#">La radio</a>
+                        <a class="nav-item nav-link" href="#nos-programmes">Nos programmes</a>
+                        <a class="nav-item nav-link" href="#nos-animateur">Animateurs</a>
+                        <a class="nav-item nav-link" href="#nos-photos">Nos photos</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>    
+            </div>
+        
+        </nav>
 
         <div class="container">
             <video autoplay muted loop id="myVideo">
@@ -48,15 +79,15 @@
 
             <div class="row">
                 <div class="col-md-12 home-title">
-                    <h1>Beat <span>radio</span></h1>
-                    <p>le meilleur des années 90</p>
+                    <h1>Beat <span>Beat Radio</span></h1>
+                    <p>le meilleur de la musique</p>
 
 
                 </div>
             </div>
 
             <div class="row control-header">
-                <div class="col-md-6">
+                <div class="col-md-6 bout">
                     <audio src="http://radiofg.impek.com/fgv.mp3" controls></audio>
                 </div>
 
@@ -67,16 +98,17 @@
             </div>
             <div class="row">
                 <div class="col-md-12 mike">
-                    <img src="Images/radio-mike.svg" alt="Micro radio" title="le micro radio">
+                    <img src="Images/radio-mike.svg" alt="Micro radio" title="le micro radio" width="350" height="650">
                 </div>
             </div>
+            
 
         </div>
     </header>
 
     <!-- HERO
 ===========================================================================================================-->
-    <section>
+    <section id="nos-programmes">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 program">
@@ -116,7 +148,7 @@
     <!-- INTERET
 ===========================================================================================================-->
     <section class="interet" id="membres">
-        <div class="container">
+        <div class="container" id="nos-animateur">
             <div class="row">
                 <div class="col-md-12 interet-radio">
                     <h2>Ecoutez nous de 7 jour sur 7</h2>
@@ -154,7 +186,7 @@
 
     <!-- GALLERIE
 ===========================================================================================================-->
-    <section class="slide-img">
+    <section class="slide-img" id="nos-photos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 photo-style">
@@ -172,13 +204,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="/Images/ibiza.jpeg" alt="Vacances ibiza" title="photos du monde">
+                                <img class="d-block w-100" src="Images/ibiza.jpg" alt="Vacances ibiza" title="photos du monde">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="/Images/cartrip.jpeg" alt="voyage en cox car trip" title="photos du monde">
+                                <img class="d-block w-100" src="Images/cartrip.jpg" alt="voyage en cox car trip" title="photos du monde">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="/Images/forest.jpeg" alt="autour du monde en foret" title="photos du monde">
+                                <img class="d-block w-100" src="Images/forest.jpg" alt="autour du monde en foret" title="photos du monde">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
